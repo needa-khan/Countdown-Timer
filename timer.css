@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../https___dev-to-uploads.s3.amazonaws.com_uploads_articles_nphrgz8yfnjylrwfr0yl.png)
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(61, 40, 143);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+}
+
+h1 {
+    color: rgb(20, 5, 48);
+    margin-bottom: 1rem;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(31, 6, 71);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity:  0.5;
+
+}
+
+.countdown {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #08001b;
+}
+
+#status {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #160466;
+}
